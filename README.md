@@ -1,7 +1,8 @@
 # Sewaya Venue Program
+Program Sewaya Venue merupakan program yang diciptakan untuk menyelesaikan tugas kelompok Pemrograman Web 1. Program ini diciptakan oleh Mahasiswa Universitas Bani Saleh. Dibebaskan bagi anda jika ingin merubah jika menggunakan source code ini
 
 ## Tech Stack
-- PHP
+- PHP Native
 - MySQL
 - JSON
 - AJAX

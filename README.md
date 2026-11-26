@@ -9,12 +9,12 @@ Program Sewaya Venue merupakan program yang diciptakan untuk menyelesaikan tugas
 
 ## Deployment
 
-Winows :
+Windows :
 - Install Xampp
 - Run Apache
 - Letakkan Source Code di dalam folder htdocs
 
-Linux :
+Linux :  
 Clone Repository Ini 
 ```
 git clone https://github.com/analuamsagab/sewaya-venue

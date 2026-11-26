@@ -1,0 +1,95 @@
+/* Satu-satunya tempat nilai mentah desain. Jangan pakai hex di file lain. */
+:root {
+    /* surface */
+    --cream-50:  #f7f5f0;
+    --cream-100: #f5efe6;
+    --cream-200: #f3ebdd;
+    --cream-300: #e8dcc8;
+    --sand-300:  #dccbb5;
+    --sand-400:  #c9bcaa;
+    --white:     #ffffff;
+
+    /* brand */
+    --brown-400: #956228;
+    --brown-500: #6f513b;
+    --brown-600: #5c4033;
+    --brown-700: #4a352a;
+
+    /* ink */
+    --ink-900: #27271f;
+    --ink-700: #4a453c;
+    --ink-600: #6b655b;
+
+    /* sage + status */
+    --sage-50:  #e5e7df;
+    --sage-100: #d4dfd1;
+    --sage-500: #748078;
+    --sage-600: #244c3c;
+    --sage-700: #243c32;
+    --red-500:  #a14f46;
+    --red-50:   #f4e4e1;
+    --amber-50: #fbf1dc;
+
+    /* indikator kekuatan kata sandi */
+    --meter-1: #c9453e;
+    --meter-2: #d89614;
+    --meter-3: #6f9c3e;
+    --meter-4: #2f8f4e;
+
+    /* semantic */
+    --bg-page:       var(--cream-200);
+    --bg-app:        var(--cream-50);
+    --bg-surface:    var(--cream-100);
+    --bg-card:       var(--white);
+    --bg-sidebar:    var(--sand-300);
+    --text:          var(--ink-900);
+    --text-muted:    var(--ink-600);
+    --text-soft:     var(--ink-700);
+    --primary:       var(--brown-500);
+    --primary-hover: var(--brown-600);
+    --on-primary:    var(--white);
+    --border:        var(--sand-300);
+    --border-strong: var(--sand-400);
+    --border-soft:   var(--sage-50);
+
+    --status-approved-bg: var(--sage-100);
+    --status-approved-fg: var(--sage-600);
+    --status-pending-bg:  var(--amber-50);
+    --status-pending-fg:  var(--brown-400);
+    --status-rejected-bg: var(--red-50);
+    --status-rejected-fg: var(--red-500);
+    --status-cancelled-bg: #ece9e3;
+    --status-cancelled-fg: var(--ink-600);
+
+    /* tipografi */
+    --font-body:    "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+    --font-brand:   "Inria Sans", "Inter", sans-serif;
+
+    --text-xs:  11px;
+    --text-sm:  12px;
+    --text-md:  13px;
+    --text-base: 15px;
+    --text-lg:  20px;
+
+    /* radius */
+    --r-xs: 2px;
+    --r-sm: 5px;
+    --r-md: 8px;
+    --r-lg: 14px;
+    --r-pill: 999px;
+
+    /* efek */
+    --shadow-nav:    0 1px 0 rgba(38, 33, 26, 0.08);
+    --shadow-search: 0 16px 25px rgba(38, 33, 26, 0.13);
+    --shadow-card:   0 6px 18px rgba(38, 33, 26, 0.06);
+    --focus-ring:    0 0 0 3px rgba(111, 81, 59, 0.16);
+    --overlay-hero:  linear-gradient(90deg, rgba(227, 216, 202, 0.97) 0%, rgba(227, 216, 202, 0.63) 45%, rgba(227, 216, 202, 0.02) 100%);
+    --overlay-hero-mobile: linear-gradient(180deg, rgba(227, 216, 202, 0.96) 0%, rgba(227, 216, 202, 0.86) 55%, rgba(227, 216, 202, 0.50) 100%);
+
+    /* layout */
+    --sidebar-w: 222px;
+    --header-h:  92px;
+    --page-pad:  32px;
+    --content-max: 1431px;
+}

@@ -1,0 +1,199 @@
+/* ============================================================
+   Halaman auth (Masuk, Daftar, Lupa Sandi, Sandi Baru)
+   ============================================================ */
+
+.page-auth {
+    background: var(--cream-300);
+}
+
+.page-auth .auth {
+    background: var(--cream-300);
+}
+
+.auth__eyebrow {
+    font-size: var(--text-base);
+    color: var(--brown-600);
+    margin-bottom: 4px;
+}
+
+.auth__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--brown-600);
+}
+
+.auth__rule {
+    display: block;
+    width: 130px;
+    height: 1px;
+    margin: 12px 0 14px;
+    background: var(--primary);
+}
+
+.auth__lead {
+    font-size: var(--text-base);
+    color: var(--brown-600);
+    margin-top: 12px;
+}
+
+.auth__subjudul {
+    margin-top: 4px;
+    text-align: center;
+    font-size: var(--text-base);
+    color: var(--brown-600);
+}
+
+/* Halaman daftar lebih rapat: brand langsung diikuti judul. */
+.auth--rapat .auth__brand {
+    margin-bottom: 18px;
+}
+
+/* Form auth memakai kontrol yang lebih ringkas daripada dashboard. */
+.auth .field {
+    gap: 4px;
+}
+
+.auth .field__label {
+    font-size: var(--text-sm);
+}
+
+.auth .input {
+    height: 36px;
+    padding: 0 12px;
+    border-color: var(--brown-500);
+    background: var(--bg-card);
+    font-size: 14px;
+}
+
+.auth .input[aria-invalid="true"] {
+    border-color: var(--red-500);
+}
+
+/* Login dan lupa sandi di Figma memakai label kapital berjarak. */
+.auth--kaps .field__label {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.auth__flash .alert {
+    margin-bottom: 12px;
+}
+
+.auth__flash .alert:empty {
+    display: none;
+}
+
+.auth__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.auth__form--rapat {
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.auth__form .alert {
+    margin-bottom: 2px;
+}
+
+.auth__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.auth__row--kanan {
+    justify-content: flex-end;
+    margin-top: -4px;
+}
+
+.auth__row .link {
+    font-size: var(--text-sm);
+    font-weight: 500;
+}
+
+.auth__submit {
+    height: 44px;
+    margin-top: 6px;
+    border-radius: var(--r-sm);
+    font-size: 13.5px;
+}
+
+.auth__submit--kaps {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.auth__submit--tengah {
+    align-self: center;
+    min-width: 182px;
+    padding: 0 26px;
+}
+
+.auth__footer {
+    margin-top: 18px;
+    font-size: var(--text-base);
+    color: var(--text-muted);
+}
+
+.auth__footer--tengah {
+    text-align: center;
+}
+
+/* ---------- Kekuatan kata sandi ---------- */
+.meter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2px;
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+}
+
+.meter__bars {
+    display: inline-flex;
+    gap: 3px;
+    margin-left: 2px;
+}
+
+.meter__bars i {
+    width: 16px;
+    height: 6px;
+    border-radius: 1px;
+    background: var(--sand-400);
+    transition: background 0.15s ease;
+}
+
+.meter__text {
+    flex-basis: 100%;
+    font-size: var(--text-xs);
+    line-height: 1.2;
+}
+
+.meter[data-level="0"] .meter__text { color: var(--text-muted); }
+.meter[data-level="0"][data-terisi="1"] .meter__text { color: var(--meter-1); }
+
+.meter[data-level="1"] .meter__text { color: var(--meter-1); }
+.meter[data-level="1"] .meter__bars i:nth-child(-n+1) { background: var(--meter-1); }
+
+.meter[data-level="2"] .meter__text { color: var(--meter-2); }
+.meter[data-level="2"] .meter__bars i:nth-child(-n+2) { background: var(--meter-2); }
+
+.meter[data-level="3"] .meter__text { color: var(--meter-3); }
+.meter[data-level="3"] .meter__bars i:nth-child(-n+3) { background: var(--meter-3); }
+
+.meter[data-level="4"] .meter__text { color: var(--meter-4); }
+.meter[data-level="4"] .meter__bars i { background: var(--meter-4); }
+
+@media (max-width: 860px) {
+    .auth__title { font-size: 34px; }
+    .auth__brand { margin-bottom: 42px; }
+}

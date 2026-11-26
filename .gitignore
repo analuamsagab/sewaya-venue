@@ -1,0 +1,9 @@
+# Kredensial database tidak boleh ikut dibagikan.
+config/config.php
+
+# Unggahan pengguna
+uploads/*
+!uploads/.gitkeep
+
+# Berkas sementara
+*.log

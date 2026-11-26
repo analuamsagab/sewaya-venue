@@ -1,5 +1,6 @@
-## Sewaya Venue Program
+# Sewaya Venue Program
 
-# Penjelasan
+## Penjelasan
 ini adalah source code dari tugas kelompok saya. sengaja saya buat publik wkwkwk
 Gunakan dengan bijak
+

@@ -23,7 +23,7 @@ git clone https://github.com/analuamsagab/sewaya-venue
 Deploy
 ```
 rm /var/www/html/index.html
-mv sewaya-venue /var/www/html
+mv sewaya-venue/* /var/www/html
 ```
 
 ## Penutup
